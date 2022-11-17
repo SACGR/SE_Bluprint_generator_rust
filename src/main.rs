@@ -48,6 +48,6 @@ fn main(){
     result.push_str(&slut);
     
 //skriver till fillen allt vi har jort 
-    resultat_fill.write_all(result.as_bytes()).expect("jag vet inte");
+    resultat_fill.write_all(result.as_bytes()).expect("Kunde inte skriva till bp.sbc fillen ");
 
 }
