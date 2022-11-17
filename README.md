@@ -4,7 +4,7 @@ Expertera det sen i .txt format
 Ta bort all text som inte är kordinater 
 Läg .txt fillen i samma map som rust fillen 
 Och kör fillen 
-Du kommer få en .spb fill gu kan använda som en bluprint i SE
+Du kommer få en bp.sbc fill gu kan använda som en bluprint i SE
 
 Koden kan vara ganska skräp men den fungerar
 
