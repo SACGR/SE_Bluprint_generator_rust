@@ -4,21 +4,21 @@ use std::io::Write;
 
 fn main(){
     //Öpnar alla filler som behöver öpnas
-    let mut file = File::open("Untitled.txt").expect("F.1");
+    let mut file = File::open("Untitled.txt").expect("Kordinat fillen kunde inte öpnas");
     let mut kordinater = String::new();
-    file.read_to_string(&mut kordinater).expect("F.2");
+    file.read_to_string(&mut kordinater).expect("kordinat fillen kunde intte läsas in");
     
-    let mut file = File::open("Början.txt").expect("F.1");
+    let mut file = File::open("Början.txt").expect("Början.txt fillen kunde inte öpnas");
     let mut början = String::new();
-    file.read_to_string(&mut början).expect("F.2");
+    file.read_to_string(&mut början).expect("Början.txt fillen kunde intte läsas in");
 
-    let mut file = File::open("Mitten.txt").expect("F.1");
+    let mut file = File::open("Mitten.txt").expect("Mitten.txt fillen kunde inte öpnas");
     let mut mitten = String::new();
-    file.read_to_string(&mut mitten).expect("F.2");
+    file.read_to_string(&mut mitten).expect("Mitten.txt fillen kunde intte läsas in");
 
-    let mut file = File::open("Slutet.txt").expect("F.1");
+    let mut file = File::open("Slutet.txt").expect("Slutet.txt fillen kunde inte öpnas");
     let mut slut = String::new();
-    file.read_to_string(&mut slut).expect("F.2");
+    file.read_to_string(&mut slut).expect("Slutet.txt fillen kunde intte läsas in");
 
     //skapar fillen vi leger till alla ingredienser till 
     let mut result = String::new();
